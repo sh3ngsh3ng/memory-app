@@ -1,0 +1,17 @@
+#main-container {
+    background-color: white;
+    height: 100%;
+}
+
+#header {
+    height: 10%;
+    background-color: rgb(54, 54, 54);
+}
+
+#main-body {
+    height: 90%;
+}
+
+#side-nav-container {
+    background-color: lightgrey;
+}
