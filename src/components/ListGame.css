@@ -1,0 +1,144 @@
+#list-game-container {
+    height: 100%;
+    padding: 3vh;
+}
+
+#list-game-phase-one-container {
+    height: 70%;
+    border-radius: 20px;
+    border: #3e8e41;
+    background-color: #c1bfb1;
+}
+
+#list-game-phase-five-container {
+    height: 70%;
+    border-radius: 20px;
+    border: #3e8e41;
+    background-color: #c1bfb1;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+.list-game-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+    font-weight: 500;
+    text-decoration: underline;
+    height: 30%;
+}
+
+.list-game-instructions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    font-weight: 200;
+    height: 20%;
+}
+
+.list-game-btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    font-weight: 200;
+    height: 20%;
+}
+
+#start-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+    font-weight: 600;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    transition: 0.3s;
+}
+
+#start-btn:hover {box-shadow: 0 5px #666;}
+
+#start-btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 0!important;
+}
+
+
+#list-game-start-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#generated-items-left {
+    width: 50%;
+    height: 100%;
+    padding: 2vw;
+    /* overflow scroll not exit current height */
+    overflow-y: scroll;
+}
+
+
+#generated-items-right {
+    width: 50%;
+    height: 100%;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#generated-fields-left {
+    width: 50%;
+    height: 100%;
+    padding: 2vw;
+    overflow-y: scroll;
+}
+
+#generated-fields-right {
+    width: 50%;
+    height: 100%;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item {
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+.card-item-input {
+    margin-bottom: 1vh
+}
+
+#list-game-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

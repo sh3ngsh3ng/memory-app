@@ -5,12 +5,12 @@ import { useContext } from 'react';
 import { SideNavContext } from '../context/SideNavContext';
 
 export default function SideNav() {
-    const items = useContext(SideNavContext)
+    const context = useContext(SideNavContext)
 
     return (
         <div id='side-nav'>
             {
-                items.map((item) => {
+                context.items.map((item) => {
                     return <NavItem activity={item} />
                 })
             }
